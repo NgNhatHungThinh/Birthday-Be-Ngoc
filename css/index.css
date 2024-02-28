@@ -1,0 +1,271 @@
+body {
+    justify-content: center;
+    align-items: center;
+    /* background-color: pink ; */
+    background-color: #239ac2;
+}
+
+.balloon__container {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-family: "Wendy One", sans-serif;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+.happy__line, 
+.birthday__line {
+    display: inline-flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    /* font-family: "Wendy One", sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.balloon__1 {
+    width: 6rem;
+    height: 7.5rem;
+    background-color: rgba(223, 255, 0, 0.9);
+    border-radius: 50%;
+    position: relative;
+    color: white;
+    font-size: 6rem;
+}
+
+.balloon__1::before {
+    color: rgba(223, 255, 0, 0.9);
+    content: '▲';
+    position: absolute;
+    bottom: -12px;
+    left: 40%;
+    font-size: 1rem;
+}
+
+.balloon__2 {
+    width: 6rem;
+    height: 7.5rem;
+    background-color: rgba(255, 191, 0, 0.9);
+    border-radius: 50%;
+    position: relative;
+    color: white;
+    font-size: 6rem;
+}
+
+.balloon__2::before {
+    color: rgba(255, 191, 0, 0.9);
+    content: '▲';
+    position: absolute;
+    bottom: -12px;
+    left: 40%;
+    font-size: 1rem;
+}
+
+.balloon__3 {
+    width: 6rem;
+    height: 7.5rem;
+    background-color: rgba(255, 127, 80, 0.9);
+    border-radius: 50%;
+    position: relative;
+    color: white;
+    font-size: 6rem;
+}
+
+.balloon__3::before {
+    color: rgba(255, 127, 80, 0.9);
+    content: '▲';
+    position: absolute;
+    bottom: -12px;
+    left: 40%;
+    font-size: 1rem;
+}
+
+.balloon__4 {
+    width: 6rem;
+    height: 7.5rem;
+    background-color: rgba(222, 49, 99, 0.9);
+    border-radius: 50%;
+    position: relative;
+    color: white;
+    font-size: 6rem;
+}
+
+.balloon__4::before {
+    color: rgba(222, 49, 99, 0.9);
+    content: '▲';
+    position: absolute;
+    bottom: -12px;
+    left: 40%;
+    font-size: 1rem;
+}
+
+.balloon__5 {
+    width: 6rem;
+    height: 7.5rem;
+    background-color: rgba(182, 15, 97, 0.9);
+    border-radius: 50%;
+    position: relative;
+    color: white;
+    font-size: 6rem;
+}
+
+.balloon__5::before {
+    color: rgba(182, 15, 97, 0.9);
+    content: '▲';
+    position: absolute;
+    bottom: -12px;
+    left: 40%;
+    font-size: 1rem;
+}
+
+.balloon__6 {
+    width: 6rem;
+    height: 7.5rem;
+    background-color: rgba(159, 226, 191, 0.9);
+    border-radius: 50%;
+    position: relative;
+    color: white;
+    font-size: 6rem;
+}
+
+.balloon__6::before {
+    color: rgba(159, 226, 191, 0.9);
+    content: '▲';
+    position: absolute;
+    bottom: -12px;
+    left: 40%;
+    font-size: 1rem;
+}
+
+.balloon__7 {
+    width: 6rem;
+    height: 7.5rem;
+    background-color: rgba(64, 224, 208, 0.9);
+    border-radius: 50%;
+    position: relative;
+    color: white;
+    font-size: 6rem;
+}
+
+.balloon__7::before {
+    color: rgba(64, 224, 208, 0.9);
+    content: '▲';
+    position: absolute;
+    bottom: -12px;
+    left: 40%;
+    font-size: 1rem;
+}
+
+.balloon__8 {
+    width: 6rem;
+    height: 7.5rem;
+    background-color: rgba(100, 149, 237, 0.9);
+    border-radius: 50%;
+    position: relative;
+    color: white;
+    font-size: 6rem;
+}
+
+.balloon__8::before {
+    color: rgba(100, 149, 237, 0.9);
+    content: '▲';
+    position: absolute;
+    bottom: -12px;
+    left: 40%;
+    font-size: 1rem;
+}
+
+.balloon__9 {
+    width: 6rem;
+    height: 7.5rem;
+    background-color: rgba(187, 143, 206, 0.9);
+    border-radius: 50%;
+    position: relative;
+    color: white;
+    font-size: 6rem;
+}
+
+.balloon__9::before {
+    color: rgba(187, 143, 206, 0.9);
+    content: '▲';
+    position: absolute;
+    bottom: -12px;
+    left: 40%;
+    font-size: 1rem;
+}
+
+.balloon__10 {
+    width: 6rem;
+    height: 7.5rem;
+    background-color: rgba(206, 143, 162, 0.9);
+    border-radius: 50%;
+    position: relative;
+    color: white;
+    font-size: 6rem;
+}
+
+.balloon__10::before {
+    color: rgba(206, 143, 162, 0.9);
+    content: '▲';
+    position: absolute;
+    bottom: -12px;
+    left: 40%;
+    font-size: 1rem;
+}
+
+.balloon__11 {
+    width: 6rem;
+    height: 7.5rem;
+    background-color: rgba(206, 155, 143, 0.9);
+    border-radius: 50%;
+    position: relative;
+    color: white;
+    font-size: 6rem;
+}
+
+.balloon__11::before {
+    color: rgba(206, 155, 143, 0.9);
+    content: '▲';
+    position: absolute;
+    bottom: -12px;
+    left: 40%;
+    font-size: 1rem;
+}
+
+.balloon__12 {
+    width: 6rem;
+    height: 7.5rem;
+    background-color: rgba(206, 187, 143, 0.9);
+    border-radius: 50%;
+    position: relative;
+    color: white;
+    font-size: 6rem;
+}
+
+.balloon__12::before {
+    color: rgba(206, 187, 143, 0.9);
+    content: '▲';
+    position: absolute;
+    bottom: -12px;
+    left: 40%;
+    font-size: 1rem;
+}
+
+.balloon__13 {
+    width: 6rem;
+    height: 7.5rem;
+    background-color: rgba(194, 206, 143, 0.9);
+    border-radius: 50%;
+    position: relative;
+    color: white;
+    font-size: 6rem;
+}
+
+.balloon__13::before {
+    color: rgba(194, 206, 143, 0.9);
+    content: '▲';
+    position: absolute;
+    bottom: -12px;
+    left: 40%;
+    font-size: 1rem;
+}
