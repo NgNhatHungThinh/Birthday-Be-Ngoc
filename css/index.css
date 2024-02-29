@@ -1,13 +1,24 @@
+html {
+    font-size: 62S.5%;
+}
+
 body {
     justify-content: center;
     align-items: center;
     background-color: #239ac2;
     /* background-color: lightpink; */
 }
-
+.main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 .balloon__container {
     width: 100%;
     font-family: "Wendy One", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .happy__line, 
 .birthday__line,
@@ -19,7 +30,7 @@ body {
 }
 
 .balloon__1 {
-    width: 6rem;
+    width: 5rem;
     height: 6rem;
     background-color: rgba(223, 255, 0, 0.9);
     border-radius: 60%;
@@ -42,7 +53,7 @@ body {
 }
 
 .balloon__2 {
-    width: 6rem;
+    width: 5rem;
     height: 6rem;
     background-color: rgba(255, 191, 0, 0.9);
     border-radius: 50%;
@@ -65,7 +76,7 @@ body {
 }
 
 .balloon__3 {
-    width: 6rem;
+    width: 5rem;
     height: 6rem;
     background-color: rgba(255, 127, 80, 0.9);
     border-radius: 50%;
@@ -88,7 +99,7 @@ body {
 }
 
 .balloon__4 {
-    width: 6rem;
+    width: 5rem;
     height: 6rem;
     background-color: rgba(222, 49, 99, 0.9);
     border-radius: 50%;
@@ -111,7 +122,7 @@ body {
 }
 
 .balloon__5 {
-    width: 6rem;
+    width: 5rem;
     height: 6rem;
     background-color: rgba(182, 15, 97, 0.9);
     border-radius: 50%;
@@ -134,7 +145,7 @@ body {
 }
 
 .balloon__6 {
-    width: 6rem;
+    width: 5rem;
     height: 6rem;
     background-color: rgba(159, 226, 191, 0.9);
     border-radius: 50%;
@@ -157,7 +168,7 @@ body {
 }
 
 .balloon__7 {
-    width: 6rem;
+    width: 5rem;
     height: 6rem;
     background-color: rgba(64, 224, 208, 0.9);
     border-radius: 50%;
@@ -180,7 +191,7 @@ body {
 }
 
 .balloon__8 {
-    width: 6rem;
+    width: 5rem;
     height: 6rem;
     background-color: rgba(100, 149, 237, 0.9);
     border-radius: 50%;
@@ -203,7 +214,7 @@ body {
 }
 
 .balloon__9 {
-    width: 6rem;
+    width: 5rem;
     height: 6rem;
     background-color: rgba(187, 143, 206, 0.9);
     border-radius: 50%;
@@ -226,7 +237,7 @@ body {
 }
 
 .balloon__10 {
-    width: 6rem;
+    width: 5rem;
     height: 6rem;
     background-color: rgba(206, 143, 162, 0.9);
     border-radius: 50%;
@@ -319,31 +330,88 @@ body {
 
 .gift__container {
     width: 100%;
+    display: flex;
     justify-content: center;
-    text-align: center;
+    align-items: center;
+    flex-direction: column;
     position: relative;
 }
-
-.gift__container::before {
+.cover__box{
+    position: relative;
+    background-color: #e9c46a;
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    /* top: -40px; */
+    /* left: -1rem; */
+    transform-origin: bottom left;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-top: 5rem;
+}
+.cover__box::after{
     content: '';
-    position:absolute;
+    position: absolute;
+    width: 5px;
+    height: 0;
+    border-bottom: 30px solid #e76f51;
+    border-top: 30px solid #e76f51;
+    border-left: 0px solid transparent;
+    border-right: 30px solid transparent;
+    transform: rotate(-90deg);
+    left: 65px;
+    top: -47px;
+}
+.body__box{
+    position: relative;
+    width: 150px;
+    height: 100px;
+    /* background: linear-gradient(pink 30%, 	#00ffff); */
+    background-color: #e9c46a;
+    border-radius: -10rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 99;
+}
+.body__box::after{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 100px;
+    background-color: #e76f51;
+    top: 0;
+    left: 3.8rem;
+}
+.box__shadow{
+    width:130px;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: -50px;
+}
+
+/* .gift__container::before {
+    content: '';
+    position:relative;
     width: 170px;
     height: 20px;
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 50%;
     top: 6.3rem;
     left: 6.5rem;
-}
+} */
 
-.box {
+/* .box {
+    position: relative;
     width: 150px;
     height: 100px;
     margin: 0 auto;
     margin-top: 10rem;
-    /* background: linear-gradient(pink 30%, 	#00ffff); */
+    background: linear-gradient(pink 30%, 	#00ffff);
     background-color: #e9c46a;
     border-radius: -10rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 99;
 }
 
 .box::before {
@@ -353,6 +421,16 @@ body {
     height: 100px;
     background-color: #e76f51;
     left: 11rem;
+}
+.box__shadow{
+    position:absolute;
+    width: 11rem;
+    height: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    bottom: -12px;
+    left: -10px;
+    z-index: -99;
 }
 
 .gift::after {
@@ -367,20 +445,20 @@ body {
     display: none;
 }
 
-.touch {
+.touch__label {
     position: absolute;
     background-color: #e9c46a;
     width: 170px;
     height: 40px;
     border-radius: 5px;
     top: -40px;
-    left: 6.6rem;
+    left: -1rem;
     transform-origin: bottom left;
     transition: 0.3s;
     cursor: pointer;
 }
 
-.touch::before {
+.touch__label::before {
     position: absolute;
     content: '';
     width: 25px;
@@ -389,7 +467,7 @@ body {
     left: 4.4rem;
 }
 
-.touch::after {
+.touch__label::after {
     content: '';
     position: absolute;
     width: 5px;
@@ -409,7 +487,10 @@ body {
 
 #touch:checked~.wish__conntent {
     transform: translateY(-120px);
-}
+    
+} */
+
+
 
 /* BALLOON TYPE 1*/
 @-webkit-keyframes type1 {
