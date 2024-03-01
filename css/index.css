@@ -1,18 +1,19 @@
 html {
-    font-size: 62S.5%;
+    font-size: 62.5%;
 }
 
 body {
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     background-color: #239ac2;
-    /* background-color: lightpink; */
 }
-.main{
+/* .main{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
+} */
+
+/* Bong bóng bay */
 .balloon__container {
     width: 100%;
     font-family: "Wendy One", sans-serif;
@@ -328,28 +329,34 @@ body {
     font-size: 1rem;
 }
 
-.gift__container {
+/* Hộp quà */
+
+
+/* .gift__container {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     position: relative;
+    top: 250px
 }
-.cover__box{
-    position: relative;
+
+.cover__box {
+    position: absolute;
     background-color: #e9c46a;
     width: 170px;
     height: 40px;
     border-radius: 5px;
-    /* top: -40px; */
-    /* left: -1rem; */
+    top: -40px;
+    left: -1rem;
     transform-origin: bottom left;
     transition: 0.3s;
     cursor: pointer;
     margin-top: 5rem;
 }
-.cover__box::after{
+
+.cover__box::after {
     content: '';
     position: absolute;
     width: 5px;
@@ -362,17 +369,18 @@ body {
     left: 65px;
     top: -47px;
 }
-.body__box{
+
+.body__box {
     position: relative;
     width: 150px;
     height: 100px;
-    /* background: linear-gradient(pink 30%, 	#00ffff); */
     background-color: #e9c46a;
     border-radius: -10rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     z-index: 99;
 }
-.body__box::after{
+
+.body__box::after {
     content: '';
     position: absolute;
     width: 25px;
@@ -381,14 +389,15 @@ body {
     top: 0;
     left: 3.8rem;
 }
-.box__shadow{
+
+.box__shadow {
     width:130px;
     height: 2rem;
     border-radius: 50%;
     background-color: rgba(0, 0, 0, 0.4);
     position: absolute;
-    bottom: -50px;
-}
+    bottom: -25px;
+} */
 
 /* .gift__container::before {
     content: '';
