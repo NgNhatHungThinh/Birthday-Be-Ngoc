@@ -3,23 +3,24 @@ html {
 }
 
 body {
-    /* justify-content: center;
-    align-items: center; */
-    background-color: #239ac2;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd1dc;
 }
-/* .main{
-    display: flex;
+
+.main{
+    display: block;
     justify-content: space-between;
-    flex-wrap: wrap;
-} */
+}
 
 /* Bong bóng bay */
 .balloon__container {
-    width: 100%;
-    font-family: "Wendy One", sans-serif;
     display: flex;
+    width: 100%;
     flex-direction: column;
     justify-content: space-between;
+    font-family: "Wendy One", sans-serif;
+    margin-top: 25px;
 }
 .happy__line, 
 .birthday__line,
@@ -31,13 +32,13 @@ body {
 }
 
 .balloon__1 {
-    width: 5rem;
-    height: 6rem;
+    width: 7rem;
+    height: 8rem;
     background-color: rgba(223, 255, 0, 0.9);
     border-radius: 60%;
     position: relative;
     color: white;
-    font-size: 5rem;
+    font-size: 7rem;
 
     -webkit-animation: type1 6s ease-in-out infinite;
     -moz-animation: type1 6s ease-in-out infinite;
@@ -50,17 +51,17 @@ body {
     position: absolute;
     bottom: -12px;
     left: 40%;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .balloon__2 {
-    width: 5rem;
-    height: 6rem;
+    width: 7rem;
+    height: 8rem;
     background-color: rgba(255, 191, 0, 0.9);
     border-radius: 50%;
     position: relative;
     color: white;
-    font-size: 5rem;
+    font-size: 7rem;
 
     -webkit-animation: type2 6s ease-in-out infinite;
     -moz-animation: type2 6s ease-in-out infinite;
@@ -73,17 +74,17 @@ body {
     position: absolute;
     bottom: -12px;
     left: 40%;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .balloon__3 {
-    width: 5rem;
-    height: 6rem;
+    width: 7rem;
+    height: 8rem;
     background-color: rgba(255, 127, 80, 0.9);
     border-radius: 50%;
     position: relative;
     color: white;
-    font-size: 5rem;
+    font-size: 7rem;
 
     -webkit-animation: type2 6s ease-in-out infinite;
     -moz-animation: type2 6s ease-in-out infinite;
@@ -96,17 +97,17 @@ body {
     position: absolute;
     bottom: -12px;
     left: 40%;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .balloon__4 {
-    width: 5rem;
-    height: 6rem;
+    width: 7rem;
+    height: 8rem;
     background-color: rgba(222, 49, 99, 0.9);
     border-radius: 50%;
     position: relative;
     color: white;
-    font-size: 5rem;
+    font-size: 7rem;
 
     -webkit-animation: type1 6s ease-in-out infinite;
     -moz-animation: type1 6s ease-in-out infinite;
@@ -119,17 +120,17 @@ body {
     position: absolute;
     bottom: -12px;
     left: 40%;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .balloon__5 {
-    width: 5rem;
-    height: 6rem;
+    width: 7rem;
+    height: 8rem;
     background-color: rgba(182, 15, 97, 0.9);
     border-radius: 50%;
     position: relative;
     color: white;
-    font-size: 5rem;
+    font-size: 7rem;
 
     -webkit-animation: type2 6s ease-in-out infinite;
     -moz-animation: type2 6s ease-in-out infinite;
@@ -142,17 +143,17 @@ body {
     position: absolute;
     bottom: -12px;
     left: 40%;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .balloon__6 {
-    width: 5rem;
-    height: 6rem;
+    width: 7rem;
+    height: 8rem;
     background-color: rgba(159, 226, 191, 0.9);
     border-radius: 50%;
     position: relative;
     color: white;
-    font-size: 5rem;
+    font-size: 7rem;
 
     -webkit-animation: type2 6s ease-in-out infinite;
     -moz-animation: type2 6s ease-in-out infinite;
@@ -165,17 +166,17 @@ body {
     position: absolute;
     bottom: -12px;
     left: 40%;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .balloon__7 {
-    width: 5rem;
-    height: 6rem;
+    width: 7rem;
+    height: 8rem;
     background-color: rgba(64, 224, 208, 0.9);
     border-radius: 50%;
     position: relative;
     color: white;
-    font-size: 5rem;
+    font-size: 7rem;
 
     -webkit-animation: type1 6s ease-in-out infinite;
     -moz-animation: type1 6s ease-in-out infinite;
@@ -188,17 +189,17 @@ body {
     position: absolute;
     bottom: -12px;
     left: 40%;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .balloon__8 {
-    width: 5rem;
-    height: 6rem;
+    width: 7rem;
+    height: 8rem;
     background-color: rgba(100, 149, 237, 0.9);
     border-radius: 50%;
     position: relative;
     color: white;
-    font-size: 5rem;
+    font-size: 7rem;
 
     -webkit-animation: type2 6s ease-in-out infinite;
     -moz-animation: type2 6s ease-in-out infinite;
@@ -211,17 +212,17 @@ body {
     position: absolute;
     bottom: -12px;
     left: 40%;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .balloon__9 {
-    width: 5rem;
-    height: 6rem;
+    width: 7rem;
+    height: 8rem;
     background-color: rgba(187, 143, 206, 0.9);
     border-radius: 50%;
     position: relative;
     color: white;
-    font-size: 5rem;
+    font-size: 7rem;
 
     -webkit-animation: type1 6s ease-in-out infinite;
     -moz-animation: type1 6s ease-in-out infinite;
@@ -234,17 +235,17 @@ body {
     position: absolute;
     bottom: -12px;
     left: 40%;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .balloon__10 {
-    width: 5rem;
-    height: 6rem;
+    width: 7rem;
+    height: 8rem;
     background-color: rgba(206, 143, 162, 0.9);
     border-radius: 50%;
     position: relative;
     color: white;
-    font-size: 5rem;
+    font-size: 7rem;
 
     -webkit-animation: type2 6s ease-in-out infinite;
     -moz-animation: type2 6s ease-in-out infinite;
@@ -257,17 +258,17 @@ body {
     position: absolute;
     bottom: -12px;
     left: 40%;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .balloon__11 {
-    width: 5rem;
-    height: 6rem;
+    width: 7rem;
+    height: 8rem;
     background-color: rgba(206, 155, 143, 0.9);
     border-radius: 50%;
     position: relative;
     color: white;
-    font-size: 5rem;
+    font-size: 6rem;
 
     -webkit-animation: type2 6s ease-in-out infinite;
     -moz-animation: type2 6s ease-in-out infinite;
@@ -280,17 +281,17 @@ body {
     position: absolute;
     bottom: -12px;
     left: 40%;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .balloon__12 {
-    width: 5rem;
-    height: 6rem;
+    width: 7rem;
+    height: 8rem;
     background-color: rgba(206, 187, 143, 0.9);
     border-radius: 50%;
     position: relative;
     color: white;
-    font-size: 5rem;
+    font-size: 7rem;
 
     -webkit-animation: type1 6s ease-in-out infinite;
     -moz-animation: type1 6s ease-in-out infinite;
@@ -303,17 +304,17 @@ body {
     position: absolute;
     bottom: -12px;
     left: 40%;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .balloon__13 {
-    width: 5rem;
-    height: 6rem;
+    width: 7rem;
+    height: 8rem;
     background-color: rgba(194, 206, 143, 0.9);
     border-radius: 50%;
     position: relative;
     color: white;
-    font-size: 5rem;
+    font-size: 7rem;
 
     -webkit-animation: type1 6s ease-in-out infinite;
     -moz-animation: type1 6s ease-in-out infinite;
@@ -326,180 +327,164 @@ body {
     position: absolute;
     bottom: -12px;
     left: 40%;
-    font-size: 1rem;
+    font-size: 1.5rem;
+}
+
+/* Hình ảnh */
+.photos__container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.topic {
+    display: inline-flex;
+    width: 100%;
+    font-family:'Courier New', Courier, monospace ;
+    font-size: 2.5rem;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.picture {
+    display: flex;
+    position: relative;
+    width: 34rem;
+    height: 50rem;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 100px;
+}
+
+.photo {
+    /* display: inline-flex; */
+    position: absolute;
+    width: 32rem;
+    height: auto;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* .photo {
+    display: inline-flex;
+    position: absolute;
+    width: 22rem;
+    height: 28rem;
+    justify-content: center;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.photo.visible {
+    opacity: 1; 
+}
+
+.photo:not(:first-child) {
+    pointer-events: none;
+}
+
+.photo:last-child {
+    z-index: 1;
+} */
+
+.namecard {
+    display: inline-flex;
+    width: 100%;
+    font-family:'Courier New', Courier, monospace ;
+    font-size: 1.5rem;
+    justify-content: center; 
+    align-items:flex-end;
+    margin-bottom: 20px;
 }
 
 /* Hộp quà */
-
-
-/* .gift__container {
-    width: 100%;
+.gift__container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     position: relative;
-    top: 250px
+    width: 100%;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
 }
 
 .cover__box {
-    position: absolute;
+    display: inline-flex;
+    position: relative;
+    width: 15rem;
+    height: 3rem;
     background-color: #e9c46a;
-    width: 170px;
-    height: 40px;
-    border-radius: 5px;
-    top: -40px;
-    left: -1rem;
+    border-radius: 5%;
+    margin-top: 50px;
     transform-origin: bottom left;
     transition: 0.3s;
     cursor: pointer;
-    margin-top: 5rem;
 }
 
+.cover__box::before {
+    content: '';
+    position: absolute;
+    width: 4rem;
+    height: 3rem;
+    background-color: #e76f51;
+    left: 55px;
+}
 .cover__box::after {
     content: '';
     position: absolute;
-    width: 5px;
-    height: 0;
+    width: 1rem;
+    bottom: 20px;
+    left: 55px;
     border-bottom: 30px solid #e76f51;
     border-top: 30px solid #e76f51;
     border-left: 0px solid transparent;
     border-right: 30px solid transparent;
+    border-radius: 20%;
     transform: rotate(-90deg);
-    left: 65px;
-    top: -47px;
 }
-
-.body__box {
-    position: relative;
-    width: 150px;
-    height: 100px;
-    background-color: #e9c46a;
-    border-radius: -10rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    z-index: 99;
-}
-
-.body__box::after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 100px;
-    background-color: #e76f51;
-    top: 0;
-    left: 3.8rem;
-}
-
-.box__shadow {
-    width:130px;
-    height: 2rem;
-    border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.4);
-    position: absolute;
-    bottom: -25px;
-} */
-
-/* .gift__container::before {
-    content: '';
-    position:relative;
-    width: 170px;
-    height: 20px;
-    background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 50%;
-    top: 6.3rem;
-    left: 6.5rem;
-} */
-
-/* .box {
-    position: relative;
-    width: 150px;
-    height: 100px;
-    margin: 0 auto;
-    margin-top: 10rem;
-    background: linear-gradient(pink 30%, 	#00ffff);
-    background-color: #e9c46a;
-    border-radius: -10rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    z-index: 99;
-}
-
-.box::before {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 100px;
-    background-color: #e76f51;
-    left: 11rem;
-}
-.box__shadow{
-    position:absolute;
-    width: 11rem;
-    height: 1.5rem;
-    background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 50%;
-    bottom: -12px;
-    left: -10px;
-    z-index: -99;
-}
-
-.gift::after {
-    content: '';
-    position: absolute;
-    box-shadow: inset 0 10px rgba(0, 0, 0, 0.3);
-    width: 150px;
-    height: 100px;
-}
-
-#touch {
-    display: none;
-}
-
-.touch__label {
-    position: absolute;
-    background-color: #e9c46a;
-    width: 170px;
-    height: 40px;
-    border-radius: 5px;
-    top: -40px;
-    left: -1rem;
-    transform-origin: bottom left;
-    transition: 0.3s;
-    cursor: pointer;
-}
-
-.touch__label::before {
-    position: absolute;
-    content: '';
-    width: 25px;
-    height: 40px;
-    background-color: #e76f51;
-    left: 4.4rem;
-}
-
-.touch__label::after {
-    content: '';
-    position: absolute;
-    width: 5px;
-    height: 0;
-    border-bottom: 30px solid #e76f51;
-    border-top: 30px solid #e76f51;
-    border-left: 0px solid transparent;
-    border-right: 30px solid transparent;
-    transform: rotate(-90deg);
-    left: 65px;
-    top: -47px;
-}
-
-#touch:checked+.touch {
+.open {
     transform: rotate(-110deg) scale(0.85);
 }
 
-#touch:checked~.wish__conntent {
-    transform: translateY(-120px);
-    
-} */
+.body__box {
+    display: inline-flex;
+    position: relative;
+    width: 14rem;
+    height: 7rem;
+    background-color: #e9c46a;
+    border-radius: 1%;
+}
+.body__box::before {
+    content: '';
+    position: absolute;
+    width: 4rem;
+    height: 7rem;
+    background-color: #e76f51;
+    left: 50px;
+}
+.body__box::after {
+    content: '';
+    position: absolute;
+    width: 14rem;
+    height: 7rem;
+    box-shadow: inset 0 5px rgba(0, 0, 0, 0.3);
+}
+.white-box-shadow {
+    box-shadow: inset 0 5px rgba(0, 0, 0, 0.1);
+}
 
-
+.box__shadow {
+    position: relative;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 1px;
+}
 
 /* BALLOON TYPE 1*/
 @-webkit-keyframes type1 {
