@@ -8,7 +8,7 @@ if (document.location.search.match(/type=embed/gi))
 
 function showMessage() 
 {
-    var coverBox = document.querySelector('.cover__box');
+    var coverBox = document.querySelector('.giftbox__cover');
 
     if (!isOpen) 
     {
