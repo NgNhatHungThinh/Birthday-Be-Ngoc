@@ -3,7 +3,7 @@
     <head>
         <meta charset="UFT-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>Birthday!!!</title>
+        <title>Birthday Em Yeu</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="/css/index.css" /> 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
@@ -13,6 +13,11 @@
 
     <body>
         <main class="main">   
+            <!-- <audio id="player" autoplay loop>
+                <source src="https://drive.google.com/drive/my-drive/" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio> -->
+
             <div class="balloon__container">
                 <div class="happy__line">
                     <span class="balloon__1">H</span>
@@ -52,9 +57,12 @@
                 </div>
                 <div class="giftbox__shadow"></div>
             </div>
-            
-        </main>
 
+            <!-- 5. Phần nhạc -->
+            <audio id="player" controls autoplay loop>
+                <source src="./music.mp3" type="audio/mpeg">
+            </audio>
+        </main>
         <script src="script/index.js"></script>
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 

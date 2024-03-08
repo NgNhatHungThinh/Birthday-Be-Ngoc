@@ -1,7 +1,13 @@
 var isOpen = false;
 var currentPhotoIndex = 1;
 
-if (document.location.search.match(/type=embed/gi)) 
+// Phát nhạc khi trang web được tải
+var audio = document.getElementById("player");
+window.onload = function() {
+    audio.play();
+};
+
+if(document.location.search.match(/type=embed/gi)) 
 {
     window.parent.postMessage("resize", "*");
 }
@@ -10,17 +16,16 @@ function showMessage()
 {
     var coverBox = document.querySelector('.giftbox__cover');
 
-    if (!isOpen) 
+    if(!isOpen) 
     {
         coverBox.classList.add('open');
         swal({
             title: "Chúc mừng sinh nhật em yêu ❤️️",
-            text: "Gửi em, chàng trai năm 20 tuổi, hãy biết cố gắng thật nhiều để sau này không hối hận, hãy biết yêu thương bản thân để luôn có sức khỏe khỏe mạnh, hãy biết hiếu thuận gia đình để bố mẹ không bao giờ buồn, và cũng hãy đi tìm nàng công chúa của mình đi nào.", // Nội dung lời nhắn
+            text: "Cảm ơn em! Người đã mang đến cho anh niềm vui trong cuộc sống và vô vàn hứng khởi trong công việc. Nhân ngày sinh nhật em, anh chúc em luôn mạnh khỏe, ngày càng xinh đẹp và những mong muốn của em sớm thành hiện thực. Mong sao hai ta luôn bên nhau, cùng nhau trải qua nhiều dịp sinh nhật nữa nhé!. Happy Birthday, Bae!", 
             button: {
                 text: "❤️️",
             },
         });
-
         isOpen = true;
     } 
     else 
@@ -41,7 +46,7 @@ function nextPhoto()
     currentPhotoIndex++;
 
     // Nếu đã đến ảnh cuối cùng, quay lại ảnh đầu tiên
-    if (currentPhotoIndex >= photos.length) currentPhotoIndex = 0; 
+    if(currentPhotoIndex >= photos.length) currentPhotoIndex = 0; 
 
     // Hiện ảnh tiếp theo
     photos[currentPhotoIndex].style.display = 'block';
