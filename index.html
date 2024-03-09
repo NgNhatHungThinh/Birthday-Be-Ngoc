@@ -13,11 +13,6 @@
 
     <body>
         <main class="main">   
-            <!-- <audio id="player" autoplay loop>
-                <source src="https://drive.google.com/drive/my-drive/" type="audio/mpeg">
-                Your browser does not support the audio element.
-            </audio> -->
-
             <div class="balloon__container">
                 <div class="happy__line">
                     <span class="balloon__1">H</span>
@@ -42,26 +37,31 @@
 
             <div class="photos__container"> 
                 <span class="name">Hồng Ngọc</span>
-                <span class="topic">Sinh nhật lần thứ 25</span>
+                <span class="topic" >Sinh nhật lần thứ 25</span>
                 <div class="picture">
-                    <img src="https://i.postimg.cc/Bbgnd8Y9/Picture-1.png" class="photo" onclick="nextPhoto()">
-                    <img src="https://i.postimg.cc/sD9td0rJ/Picture-3.png" class="photo" onclick="nextPhoto()">
+                    <img src="https://i.postimg.cc/WpMT6RS2/image1.png" class="photo" onclick="nextPhoto()">
+                    <img src="https://i.postimg.cc/90jV51X5/image2.png" class="photo" onclick="nextPhoto()">
+                    <img src="https://i.postimg.cc/wjW6yh2L/image3.png" class="photo" onclick="nextPhoto()">
+                    <img src="https://i.postimg.cc/wjBzp1zv/image4.png" class="photo" onclick="nextPhoto()">
+                    <img src="https://i.postimg.cc/fLYnKXcH/image5.png" class="photo" onclick="nextPhoto()">
+                    <img src="https://i.postimg.cc/VvyssmRh/image6.png" class="photo" onclick="nextPhoto()">
+                    <img src="https://i.postimg.cc/0QK2qbpm/image7.png" class="photo" onclick="nextPhoto()">
+                    <img src="https://i.postimg.cc/sDsyTn05/image8.png" class="photo" onclick="nextPhoto()">
+                    <img src="https://i.postimg.cc/k50PKwb6/image9.png" class="photo" onclick="nextPhoto()">
+                    <img src="https://i.postimg.cc/t4mjC9Rz/image10.png" class="photo" onclick="nextPhoto()">
                 </div>
             </div>
 
             <div class="giftbox__container">
-                <span class="notify">Quà tặng em! &#128521;</span>
+                <span class="notify">Em nhấn vào nắp quà nhé! &#128521;</span>
                 <div class="giftbox">
                     <div class="giftbox__cover" onclick="showMessage()"></div>
-                    <div class="giftbox__body"></div>
+                    <div class="giftbox__body">
+                        <div id="bodyCap" class="giftbox__capShadow"></div>
+                    </div>
                 </div>
                 <div class="giftbox__shadow"></div>
             </div>
-
-            <!-- 5. Phần nhạc -->
-            <audio id="player" controls autoplay loop>
-                <source src="./music.mp3" type="audio/mpeg">
-            </audio>
         </main>
         <script src="script/index.js"></script>
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>

@@ -5,7 +5,7 @@ html {
 body {
     justify-content: center;
     align-items: center;
-    background-color: #FFF;
+    background-color: #fff;
 }
 
 .main{
@@ -34,11 +34,12 @@ body {
 .balloon__1 {
     width: 7rem;
     height: 8rem;
-    background-color: #a4ce95;
+    background-color: #D37676;
     border-radius: 60%;
     position: relative;
-    color: white;
+    color: #fff;
     font-size: 7rem;
+    box-shadow: -1rem 1.5rem 2rem gray; 
 
     -webkit-animation: type1 6s ease-in-out infinite;
     -moz-animation: type1 6s ease-in-out infinite;
@@ -46,12 +47,13 @@ body {
     animation: type1 6s ease-in-out infinite;
 }
 .balloon__1::before {
-    color: #a4ce95;
+    color: #D37676;
     content: '▲';
     position: absolute;
     bottom: -12px;
     left: 40%;
     font-size: 1.5rem;
+    box-shadow: -1rem 1.5rem 2rem gray;
 }
 
 .balloon__2 {
@@ -62,6 +64,7 @@ body {
     position: relative;
     color: white;
     font-size: 7rem;
+    box-shadow: -1rem 1.5rem 2rem gray;
 
     -webkit-animation: type2 6s ease-in-out infinite;
     -moz-animation: type2 6s ease-in-out infinite;
@@ -75,6 +78,7 @@ body {
     bottom: -12px;
     left: 40%;
     font-size: 1.5rem;
+    box-shadow: -1rem 1.5rem 2rem gray;
 }
 
 .balloon__3 {
@@ -85,6 +89,7 @@ body {
     position: relative;
     color: white;
     font-size: 7rem;
+    box-shadow: -1rem 1.5rem 2rem gray;
 
     -webkit-animation: type2 6s ease-in-out infinite;
     -moz-animation: type2 6s ease-in-out infinite;
@@ -98,6 +103,7 @@ body {
     bottom: -12px;
     left: 40%;
     font-size: 1.5rem;
+    box-shadow: -1rem 1.5rem 2rem gray;
 }
 
 .balloon__4 {
@@ -108,6 +114,7 @@ body {
     position: relative;
     color: white;
     font-size: 7rem;
+    box-shadow: -1rem 1.5rem 2rem gray;
 
     -webkit-animation: type1 6s ease-in-out infinite;
     -moz-animation: type1 6s ease-in-out infinite;
@@ -121,6 +128,7 @@ body {
     bottom: -12px;
     left: 40%;
     font-size: 1.5rem;
+    box-shadow: -1rem 1.5rem 2rem gray;
 }
 
 .balloon__5 {
@@ -131,6 +139,7 @@ body {
     position: relative;
     color: white;
     font-size: 7rem;
+    box-shadow: -1rem 1.5rem 2rem gray;
 
     -webkit-animation: type2 6s ease-in-out infinite;
     -moz-animation: type2 6s ease-in-out infinite;
@@ -144,6 +153,7 @@ body {
     bottom: -12px;
     left: 40%;
     font-size: 1.5rem;
+    box-shadow: -1rem 1.5rem 2rem gray;
 }
 
 .balloon__6 {
@@ -155,6 +165,7 @@ body {
     position: relative;
     color: white;
     font-size: 7rem;
+    box-shadow: -1rem 1.5rem 2rem gray;
 
     -webkit-animation: type2 6s ease-in-out infinite;
     -moz-animation: type2 6s ease-in-out infinite;
@@ -168,6 +179,7 @@ body {
     bottom: -12px;
     left: 40%;
     font-size: 1.5rem;
+    box-shadow: -1rem 1.5rem 2rem gray;
 }
 
 .balloon__7 {
@@ -178,6 +190,7 @@ body {
     position: relative;
     color: white;
     font-size: 7rem;
+    box-shadow: -1rem 1.5rem 2rem gray;
 
     -webkit-animation: type1 6s ease-in-out infinite;
     -moz-animation: type1 6s ease-in-out infinite;
@@ -191,6 +204,7 @@ body {
     bottom: -12px;
     left: 40%;
     font-size: 1.5rem;
+    box-shadow: -1rem 1.5rem 2rem gray;
 }
 
 .balloon__8 {
@@ -201,6 +215,7 @@ body {
     position: relative;
     color: white;
     font-size: 7rem;
+    box-shadow: -1rem 1.5rem 2rem gray;
 
     -webkit-animation: type2 6s ease-in-out infinite;
     -moz-animation: type2 6s ease-in-out infinite;
@@ -214,6 +229,7 @@ body {
     bottom: -12px;
     left: 40%;
     font-size: 1.5rem;
+    box-shadow: -1rem 1.5rem 2rem gray;
 }
 
 .balloon__9 {
@@ -224,6 +240,7 @@ body {
     position: relative;
     color: white;
     font-size: 7rem;
+    box-shadow: -1rem 1.5rem 2rem gray;
 
     -webkit-animation: type1 6s ease-in-out infinite;
     -moz-animation: type1 6s ease-in-out infinite;
@@ -237,6 +254,7 @@ body {
     bottom: -12px;
     left: 40%;
     font-size: 1.5rem;
+    box-shadow: -1rem 1.5rem 2rem gray;
 }
 
 .balloon__10 {
@@ -247,6 +265,7 @@ body {
     position: relative;
     color: white;
     font-size: 7rem;
+    box-shadow: -1rem 1.5rem 2rem gray;
 
     -webkit-animation: type2 6s ease-in-out infinite;
     -moz-animation: type2 6s ease-in-out infinite;
@@ -260,16 +279,18 @@ body {
     bottom: -12px;
     left: 40%;
     font-size: 1.5rem;
+    box-shadow: -1rem 1.5rem 2rem gray;
 }
 
 .balloon__11 {
     width: 7rem;
     height: 8rem;
-    background-color: rgba(206, 155, 143, 0.9);
+    background-color: #B0C5A4;
     border-radius: 50%;
     position: relative;
     color: white;
-    font-size: 6rem;
+    font-size: 7rem;
+    box-shadow: -1rem 1.5rem 2rem gray;
 
     -webkit-animation: type2 6s ease-in-out infinite;
     -moz-animation: type2 6s ease-in-out infinite;
@@ -277,22 +298,24 @@ body {
     animation: type2 6s ease-in-out infinite;
 }
 .balloon__11::before {
-    color: rgba(206, 155, 143, 0.9);
+    color: #B0C5A4;
     content: '▲';
     position: absolute;
     bottom: -12px;
     left: 40%;
     font-size: 1.5rem;
+    box-shadow: -1rem 1.5rem 2rem gray;
 }
 
 .balloon__12 {
     width: 7rem;
     height: 8rem;
-    background-color: rgba(206, 187, 143, 0.9);
+    background-color: #D37676;
     border-radius: 50%;
     position: relative;
     color: white;
     font-size: 7rem;
+    box-shadow: -1rem 1.5rem 2rem gray;
 
     -webkit-animation: type1 6s ease-in-out infinite;
     -moz-animation: type1 6s ease-in-out infinite;
@@ -300,22 +323,24 @@ body {
     animation: type1 6s ease-in-out infinite;
 }
 .balloon__12::before {
-    color: rgba(206, 187, 143, 0.9);
+    color: #D37676;
     content: '▲';
     position: absolute;
     bottom: -12px;
     left: 40%;
     font-size: 1.5rem;
+    box-shadow: -1rem 1.5rem 2rem gray;
 }
 
 .balloon__13 {
     width: 7rem;
     height: 8rem;
-    background-color: rgba(194, 206, 143, 0.9);
+    background-color: #EBC49F;
     border-radius: 50%;
     position: relative;
     color: white;
     font-size: 7rem;
+    box-shadow: -1rem 1.5rem 2rem gray;
 
     -webkit-animation: type1 6s ease-in-out infinite;
     -moz-animation: type1 6s ease-in-out infinite;
@@ -323,12 +348,13 @@ body {
     animation: type1 6s ease-in-out infinite;
 }
 .balloon__13::before {
-    color: rgba(194, 206, 143, 0.9);
+    color: #EBC49F;
     content: '▲';
     position: absolute;
     bottom: -12px;
     left: 40%;
     font-size: 1.5rem;
+    box-shadow: -1rem 1.5rem 2rem gray;
 }
 
 /* Hình ảnh */
@@ -345,9 +371,11 @@ body {
     display: inline-flex;
     position: relative;
     color: #ffd1dc;
+    /* color: #FF1493; */
     font-family: "Audiowide", sans-serif;
     font-weight: bold;
-    font-size: 3.5rem;
+    font-size: 4.5rem;
+    margin-top: 50px;
     margin-bottom: 10px;
 }
 
@@ -355,10 +383,10 @@ body {
     display: inline-flex;
     width: 100%;
     font-family: "Sofia", sans-serif;
-    font-size: 2rem;
+    font-size: 2.5rem;
     justify-content: center; 
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .picture {
@@ -367,13 +395,26 @@ body {
     width: 34rem;
     height: 46rem;
     justify-content: center;
+    /* background-color: white; */
     margin-bottom: 50px;
+}
+
+.picture img {
+    /* position: absolute; */
+    object-fit: cover; /* Đảm bảo ảnh không bị biến dạng */
+
+    /* Ẩn tất cả ảnh ban đầu, chỉ hiển thị ảnh đầu tiên */
+    display: none; 
+}
+
+.picture img:first-child {
+    display: block; /* Hiển thị ảnh đầu tiên mặc định */
 }
 
 .photo {
     position: absolute;
     width: 30rem;
-    height: auto;
+    height: 40rem;
     margin: 10px;
     cursor: pointer;
     border-top: 10px solid #fff;
@@ -396,7 +437,9 @@ body {
     position: relative; 
     font-family: "Trirong", serif;
     font-size: 2.6rem;
-    margin-bottom: 50px;
+    color: darkgray;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 
 .giftbox {
@@ -421,6 +464,7 @@ body {
     transform-origin: bottom left;
     transition: 0.3s;
     cursor: pointer;
+    box-shadow: -1rem -0.5rem 2rem rgba(128, 128, 128, 0.4); 
 }
 .giftbox__cover::before {
     content: '';
@@ -453,6 +497,7 @@ body {
     height: 7rem;
     background-color: #ffd1dc;
     border-radius: 1%;
+    box-shadow: -1rem 0rem 2rem rgba(128, 128, 128, 0.4); 
 }
 .giftbox__body::before {
     content: '';
@@ -462,8 +507,7 @@ body {
     background-color: #ffb6c1;
     left: 50px;
 }
-.giftbox__body::after {
-    content: '';
+.giftbox__capShadow {
     position: absolute;
     width: 14rem;
     height: 7rem;
@@ -478,11 +522,22 @@ body {
     width: 12.5rem;
     height: 2rem;
     transform: skewX(-30deg);
-    background-color: rgba(0, 0, 0, 0.2);   
-    top: -5px;
+    background-color: rgba(0, 0, 0, 0.1);   
     z-index: 0;
 
     animation: shadowSize 1s infinite alternate;
+}
+
+.swal-overlay 
+{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.swal-text 
+{
+    font-size: 2rem;
+    font-weight: 200;
+    word-spacing: 5px;
 }
 
 /* GIFT BOX BOUNCE */
